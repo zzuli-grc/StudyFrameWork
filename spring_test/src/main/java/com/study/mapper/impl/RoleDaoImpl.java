@@ -1,6 +1,6 @@
-package com.study.dao.impl;
+package com.study.mapper.impl;
 
-import com.study.dao.RoleDao;
+import com.study.mapper.RoleDao;
 import com.study.domain.Role;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

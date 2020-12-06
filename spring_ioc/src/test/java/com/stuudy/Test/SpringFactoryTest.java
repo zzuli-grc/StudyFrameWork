@@ -1,6 +1,6 @@
 package com.stuudy.Test;
 
-import com.study.dao.UserDao;
+import com.study.mapper.UserDao;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

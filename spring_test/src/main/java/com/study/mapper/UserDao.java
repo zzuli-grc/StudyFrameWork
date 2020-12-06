@@ -1,4 +1,4 @@
-package com.study.dao;
+package com.study.mapper;
 
 import com.study.domain.User;
 

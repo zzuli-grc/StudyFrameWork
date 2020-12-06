@@ -24,7 +24,7 @@
         <property name="roleDao" ref="roleDao"/>
     </bean>
     <!--    配置dao层对象-->
-    <bean id="roleDao" class="com.study.dao.impl.RoleDaoImpl">
+    <bean id="roleDao" class="com.study.mapper.impl.RoleDaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
 
@@ -32,7 +32,7 @@
         <property name="userDao" ref="userDao"/>
         <property name="roleDao" ref="roleDao"/>
     </bean>
-    <bean id="userDao" class="com.study.dao.impl.UserDaoImpl">
+    <bean id="userDao" class="com.study.mapper.impl.UserDaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
 </beans>

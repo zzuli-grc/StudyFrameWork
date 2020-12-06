@@ -1,6 +1,6 @@
-package com.study.dao.impl;
+package com.study.mapper.impl;
 
-import com.study.dao.UserDao;
+import com.study.mapper.UserDao;
 
 public class UserDaoImpl implements UserDao {
     public UserDaoImpl() {

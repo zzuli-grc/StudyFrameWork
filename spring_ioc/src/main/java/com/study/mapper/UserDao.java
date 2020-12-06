@@ -1,4 +1,4 @@
-package com.study.dao;
+package com.study.mapper;
 
 public interface UserDao {
     void save();

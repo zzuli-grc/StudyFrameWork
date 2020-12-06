@@ -1,7 +1,7 @@
 package com.study.factory;
 
-import com.study.dao.UserDao;
-import com.study.dao.impl.UserDaoImpl;
+import com.study.mapper.UserDao;
+import com.study.mapper.impl.UserDaoImpl;
 
 public class StaticFactory {
     public static UserDao getUserDao() {

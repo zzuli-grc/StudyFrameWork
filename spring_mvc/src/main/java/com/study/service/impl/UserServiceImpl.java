@@ -1,6 +1,6 @@
 package com.study.service.impl;
 
-import com.study.dao.UserDao;
+import com.study.mapper.UserDao;
 import com.study.service.UserService;
 
 public class UserServiceImpl implements UserService {

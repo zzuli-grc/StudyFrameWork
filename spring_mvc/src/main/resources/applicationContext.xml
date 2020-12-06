@@ -17,7 +17,7 @@
     </bean>
 
     <!--配置Dao-->
-    <bean id="userDao" class="com.study.dao.impl.UserDaoImpl"/>
+    <bean id="userDao" class="com.study.mapper.impl.UserDaoImpl"/>
 
     <!--配置service-->
     <bean id="userService" class="com.study.service.impl.UserServiceImpl">

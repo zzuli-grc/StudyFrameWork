@@ -1,7 +1,7 @@
 package com.study.service.impl;
 
-import com.study.dao.RoleDao;
-import com.study.dao.UserDao;
+import com.study.mapper.RoleDao;
+import com.study.mapper.UserDao;
 import com.study.domain.Role;
 import com.study.domain.User;
 import com.study.service.UserService;
