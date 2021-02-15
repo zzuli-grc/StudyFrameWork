@@ -11,7 +11,7 @@ public class SpringIocTest {
 //        初始化容器
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         //获取指定的对象
-        UserDao user1 = (UserDao) applicationContext.getBean("userDao");
+        UserDao user1 = applicationContext.getBean("userDao", UserDao.class);
         user1.save();
         //执行销毁方法
         ((ClassPathXmlApplicationContext) applicationContext).close();

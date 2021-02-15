@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springMVC_spring_mybatis" />
-        <module name="spring_mybatis" />
         <module name="spring_test" />
-        <module name="spring_aop" />
         <module name="spring_ioc" />
         <module name="ssm_web" />
+        <module name="springMVC_spring_mybatis" />
         <module name="spring_mvc" />
+        <module name="spring_mybatis" />
+        <module name="spring_aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
